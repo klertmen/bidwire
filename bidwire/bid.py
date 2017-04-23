@@ -11,6 +11,7 @@ class Bid(Base):
     class Site(Enum):
         COMMBUYS = "CommBuys"
         CITYOFBOSTON = "Boston's Bids and RFPs page"
+        MASSGOV_EOPSS = "EOPSS Funding and Training documents"
     __tablename__ = 'bids'
 
     # Unique database id for this bid.
